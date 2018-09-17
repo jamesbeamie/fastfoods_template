@@ -3,7 +3,7 @@
 
 ### Relevant pivortal tracker stories
 
-#### Welcome page with selectiong foods to order
+#### Welcome page with selection of foods to order
 - https://www.pivotaltracker.com/story/show/160537590
 
 #### Sign in and sign up page
