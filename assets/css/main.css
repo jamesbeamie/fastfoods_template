@@ -102,10 +102,14 @@ header nav ul li:hover {
 	border: 1px solid #fff;
 }
 
-form {
+form.form {
+	padding: 5px;
 	margin: 100px auto;
 	width: 300px;
-	min-height: 48.6vh;
+	min-height: 50.0vh;
+	padding: 20px 15px 0px 15px; 
+	border: 1px solid #cabdbd; 
+	border-radius: 10px;
 }
 
 @media only screen and (min-height: 701px) {
@@ -127,7 +131,7 @@ form input {
 	height: 35px;
 	margin-bottom: 15px;
 	padding-left: 10px;
-	width: inherit;
+	width:95%
 }
 
 form input[type=checkbox] {
@@ -157,10 +161,11 @@ form button + span {
 	width: inherit;
 }
 
-form button + span span.signup {
+form button + span span.signin {
 	color: steelblue;
 	font-style: italic;
 	text-decoration: underline;
+	text-align: left;
 }
 
 article.food-itms-cont {
@@ -272,9 +277,9 @@ article.order table tr, article.history table tr {
 }
 
 article.order table tr th, article.history table tr th {
-	background-color: grey;
+	background-color: #fff;
 	border-radius: 2px;
-	color: #fff;
+	color: black;
 	height: 30px;
 }
 
@@ -291,13 +296,14 @@ article.order table tr td, article.history table tr td {
 
 article.order table tr td:first-child, article.history table tr td:first-child {
 	background-color: #fff;
-	text-align: right;
+	text-align: center;
 }
 
 article.order table tr:last-child td, article.history table tr:last-child td {
-	background-color: #58D68D; 
+	background-color: #F0F3F4; 
 	color: #fff;
-	height: 35px
+	height: 35px;
+	color: black;
 }
 
 article.order table tr:last-child td:first-child, article.history table tr:last-child td:first-child {
@@ -313,9 +319,9 @@ article.order table tr td img, article.history table tr td img{
 }
 
 article.order table tr td.edit {
-	background-color: steelblue;
-	border-radius: 2px;
-	color: #fff;
+	background-color: #fff;
+	border-radius: 3px;
+	color: black;
 	cursor: pointer;
 	height: 20px;
 	margin-right: 5px;
@@ -337,7 +343,7 @@ article.order button.continue, article.order button.checkout, article.history bu
 
 article.order button.continue {
 	align-self: flex-start;
-	background-color: steelblue;
+	background-color: forestgreen;
 	margin: 30px 0 0 40%;
 }
 
@@ -398,6 +404,3 @@ footer span.btn-up {
 	width: 30px;
 }
 
-footer span.btn-up:hover {
-	background-color: rgba(255,255,255,.8);
-}

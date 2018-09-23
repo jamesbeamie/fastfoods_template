@@ -4,87 +4,27 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Sign in</title>
-	<style type="text/css">
-		*, *::after, *::before {box-sizing:border-box}
-		html, body {font-size:10px;height:100%;}
-		body {font-family: helveica, arial, sans-serif;margin:0 !important;width: 100%}
-		header {
-			align-items: center;
-			background-color: #16A085;
-			display: flex;
-			flex-flow: row;
-			height: 70px;
-			width: 100%;
-		}
-		header h1.logo {
-			border: 1px solid #fff;
-			border-radius: 50px;
-			font-size: 1.6rem;
-			height: 50px;
-			line-height: 50px;
-			margin-left: 20px;
-			text-align: center;
-			width: 50px;
-		}
-		header h1.logo a {
-			color: #fff;
-			text-decoration: none;
-		}
-		form {
-			margin: 100px auto;
-			width: 300px;
-		}
-		form label {
-			display: block;
-			font-size: 1.6rem;
-			font-weight: bold;
-			margin: 0 0 10px 2px;
-		}
-		form input {
-			border: 1px solid steelblue;
-			border-radius: 2px;
-			height: 35px;
-			margin-bottom: 15px;
-			padding-left: 10px;
-			width: inherit;
-		}
-		form input[type=checkbox] {
-			height: 15px;
-			width: 15px;
-			margin: 2px 5px 15px 0;
-		}
-		form span.signedin {
-			font-size: 1.4rem;
-		}
-		form button {
-			background-color: steelblue;
-			border:0;
-			color:rgb(255,255,255);
-			outline: 0
-			border-radius: 5px;
-			cursor: pointer;
-			display: block;
-			height: 35px;
-			margin-bottom: 20px;
-			width: 70px;
-		}
-		form button + span span.signup {
-			color: steelblue;
-			text-decoration: 
-		}
-	</style>
+	<link rel="stylesheet" type="text/css" href="../assets/css/main.css">
 </head>
 <body>
 	<header>
-		<h1 class="logo"><a href="index.html">FFD</a></h1>
+		<h1 class="logo"><a href="../index.html">FFF</a></h1>
 	</header>
-	<form class="signin">
-		<label>Admin log in</label>
-		<input type="email" name="email" required placeholder="Enter email">
-		<input type="password" name="pass" required placeholder="Enter password">
+	<form class="signin form">
+		<label>Admin sign in<hr></label>
+		<input type="email" name="email" required placeholder="Enter email" >
+		<input type="password" name="pass" required placeholder="Enter password" >
+		<br>
 		<input type="checkbox" name="signedin" checked>
 		<span class="signedin">keep me signed in</span>
 		<button>Sign in</button>
-	</form>
+		<span >Don't have an account? <span class="signin"><a href="signup.html">sign up</a></span></span>
+	  </form>
+
+	  <footer>
+		<ul>
+			<li>&copy;fast food fast</li>
+		</ul>
+	</footer>
 </body>
 </html>
