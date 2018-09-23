@@ -182,8 +182,8 @@ article.orders table {
 }
 
 article.orders table tr th {
-	background-color: grey;
-	color: #fff;
+	background-color: #fff;
+	color: black;
 }
 
 article.orders table tr th:first-child {
@@ -197,7 +197,7 @@ article.orders table tr td {
 
 article.orders table tr td:first-child {
 	background-color: #fff;
-	text-align: right;
+	text-align: center;
 }
 
 article.orders table tr td img {
@@ -218,10 +218,21 @@ article.orders table tr td.accept:hover, article.orders table tr td.decline:hove
 }
 
 article.orders table tr td.accept {
-	background-color: steelblue;
+	background-color: #fff;
+	color:black;
+	border: 1px solid #16A085;
+}
+article.orders table tr td.accept:hover {
+	background-color: #16A085;
+	color: #fff;
 }
 
 article.orders table tr td.decline {
+	border: 1px solid crimson;
+	background-color: #fff;
+	color: black;
+}
+article.orders table tr td.decline:hover {
 	background-color: crimson;
 }
 
@@ -236,6 +247,3 @@ article.orders table tr td.complete:hover {
 	color: #fff;
 }
 
-article.orders table tr td.details {
-	background-color: rgb(242,79,45);
-}
