@@ -1,2 +1,4 @@
-# fastfoods_template
-An app for the fast food delivery service
+# improve form design for the fastfoods_template 
+## Relevant pivortal tracker stories
+- https://www.pivotaltracker.com/story/show/160709183
+
