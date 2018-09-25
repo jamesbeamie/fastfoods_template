@@ -1,31 +1,19 @@
 
-## HTML Template for the fast food fast app
+#### HTML Template for the fast food fast app
 - This is a template for the application, showing the desing of the application without implementing the functionality
+- The templates have pages for the user to view all the food, create an account and log in and place order
+- The admin section has pages for the admin user.
+#### HOW TO VIEW THE APPLICATION LOCALLY
+- Open the application files in the folders
+- right inside the index file and select open in browser
 
-### Relevant pivortal tracker stories
-
-#### Welcome page with selection of foods to order
-- https://www.pivotaltracker.com/story/show/160537590
-
-#### Sign in and sign up page
-- https://www.pivotaltracker.com/story/show/160537600
-
-#### Admin page
-- https://www.pivotaltracker.com/story/show/160537612
-
-#### History page
-- https://www.pivotaltracker.com/story/show/160537623
-
-#### improve form design for the fastfoods_template 
-###### Relevant pivortal tracker stories
-- https://www.pivotaltracker.com/story/show/160709183
-
-#### fastfoods_template Admin login
-- Added a link to the form for the admin user to login
-
-###### Relevant pivortal tracker stories
-- https://www.pivotaltracker.com/story/show/160709137
-###### Added form action attribute
-- https://www.pivotaltracker.com/story/show/160709509
-
-
+#### HOW TO VIEW THE APPLICATION ON GH-PAGES
+- click the link to the gh-pages to launch
+#### Progress
+###### Intial application
+- Designed HTML/CSS template pages for the index page
+###### Added to application
+- Designed HTML/CSS template pages with forms for the index page
+- The admin section for with admin login and edit the orders and food
+#### Contribute
+- Review my repository and give feedback
