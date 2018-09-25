@@ -9,6 +9,7 @@
 
 #### HOW TO VIEW THE APPLICATION ON GH-PAGES
 - click the link to the gh-pages to launch
+- https://jamesbeamie.github.io/fastfoods_template/
 #### Progress
 ###### Intial application
 - Designed HTML/CSS template pages for the index page
