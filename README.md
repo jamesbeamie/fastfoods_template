@@ -1,5 +1,5 @@
 
-#### HTML Template for the fast food fast app
+###HTML TEMPLATES FOR FAST FOOD FAST APPLICATION
 - This is a template for the application, showing the desing of the application without implementing the functionality
 - The templates have pages for the user to view all the food, create an account and log in and place order
 - The admin section has pages for the admin user.
