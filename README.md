@@ -1,4 +1,11 @@
 
+# fastfoods_template Admin login
+- Added a link to the form for the admin user to login
+
+# Relevant pivortal tracker stories
+- https://www.pivotaltracker.com/story/show/160709137
+
+
 ## HTML TEMPLATES FOR FAST FOOD FAST APPLICATION
 - This is a template for the application, showing the desing of the application without implementing the functionality
 - The templates have pages for the user to view all the food, create an account and log in and place order
